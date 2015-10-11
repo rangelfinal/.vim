@@ -15,6 +15,7 @@ Plugin 'bling/vim-airline'
 Plugin 'isRuslan/vim-es6'
 Plugin 'pangloss/vim-javascript'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'easymotion/vim-easymotion'
 
 call vundle#end()            " required
 
