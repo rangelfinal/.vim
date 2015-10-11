@@ -12,6 +12,9 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-surround'
 Plugin 'bling/vim-airline'
+Plugin 'isRuslan/vim-es6'
+Plugin 'pangloss/vim-javascript'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
 
@@ -96,7 +99,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme material 
+colorscheme jellybeans 
 set background=dark
 
 " Set extra options when running in GUI mode
@@ -118,6 +121,9 @@ if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
 let g:airline_symbols.space = "\ua0"
+
+" Enables HTML/CSS syntax highlighting in Javascript
+let javascript_enable_domhtmlcss=1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
