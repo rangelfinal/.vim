@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/rangel/.oh-my-zsh'
 let g:netrw_dirhist_2='/home/rangel/Workspace/PhysisApp/app'
 let g:netrw_dirhist_3='/home/rangel/Workspace/PhysisApp/public'
 let g:netrw_dirhist_4='/home/rangel/Workspace/PhysisApp/public/script'
 let g:netrw_dirhist_5='/home/rangel/Workspace/PhysisApp/routes'
+let g:netrw_dirhist_6='/home/rangel/Workspace/PhysisApp'
+let g:netrw_dirhist_7='/home/rangel/Workspace/PhysisApp/public'
+let g:netrw_dirhist_8='/home/rangel/Workspace/PhysisApp/public/script'
