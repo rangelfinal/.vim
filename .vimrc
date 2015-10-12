@@ -20,6 +20,13 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'Raimondi/delimitMate'
+Plugin 'mileszs/ack.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'marijnh/tern_for_vim'
 
 call vundle#end()            " required
 
